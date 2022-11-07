@@ -47,6 +47,7 @@ body {
     display: flex;
     align-items: revert;
     justify-content: space-between;
+    padding: 0 0 40px 0;
 }
 
 .hero-text h6 {
@@ -189,27 +190,28 @@ body {
     justify-content: space-between;
 }
 
-.latest-btn button {
+.latest-btn {
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
-    color: #000000;
     height: 47px;
     width: 150px;
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 0;
     cursor: pointer;
-
-}
-
-.latest-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 0;
+    margin: 40px 500px;
 }
 
+.latest-btn:hover{
+    background: red;
+    border: 2px solid red;
+    color: #FFFFFF;
+    transform: scale(1.1);
+}
 #sport {
 
 }
@@ -331,7 +333,12 @@ body {
     cursor: pointer;
     margin-left: -3px;
 }
-
+.footer-btn:hover{
+    background: red;
+    border: 2px solid red;
+    color: #FFFFFF;
+    transform: scale(1.1);
+}
 .cross {
     font-weight: 400;
     font-size: 10px;
